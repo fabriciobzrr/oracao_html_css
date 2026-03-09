@@ -47,7 +47,6 @@
 
     .container {
       max-width: 900px;
-      width: 100%;
       background: var(--glass-bg);
       backdrop-filter: blur(12px);
       border: 1px solid var(--border-glass);
@@ -73,7 +72,7 @@
 
     .final {
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 3rem;
       font-weight: 500;
       color: var(--accent);
       margin-top: 40px;
@@ -83,8 +82,8 @@
     @media (max-width: 768px) {
       .container {
         margin: 2rem 0;
-        width: 90%;
-        padding: 2rem 1em;
+        max-width: 90%;
+        padding: 2rem 1rem;
       }
 
       h2 {
